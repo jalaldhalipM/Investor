@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Traction, Competition &amp; Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #0f172a;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-section {
+            padding: 50px 80px 30px 80px;
+        }
+
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 52px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0 0 10px 0;
+            line-height: 1.2;
+        }
+
+        .title-underline {
+            width: 80px;
+            height: 5px;
+            background-color: #3b82f6;
+            margin-bottom: 0;
+        }
+
+        .content-section {
+            flex: 1;
+            padding: 0 80px 50px 80px;
+            display: flex;
+        }
+
+        .columns-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            width: 100%;
+        }
+
+        .column {
+            background-color: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+            padding: 30px 25px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .column-icon {
+            font-size: 40px;
+            color: #3b82f6;
+            margin-bottom: 12px;
+        }
+
+        .column-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0;
+            text-align: center;
+        }
+
+        .column-content {
+            flex: 1;
+        }
+
+        .point-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 18px;
+        }
+
+        .point-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .point-bullet {
+            font-size: 10px;
+            color: #3b82f6;
+            margin-right: 12px;
+            margin-top: 7px;
+            min-width: 12px;
+        }
+
+        .point-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 17px;
+            font-weight: 400;
+            color: #cbd5e1;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .decoration-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.03;
+        }
+
+        .circle-1 {
+            width: 350px;
+            height: 350px;
+            background-color: #3b82f6;
+            top: -100px;
+            right: -80px;
+        }
+
+        .circle-2 {
+            width: 250px;
+            height: 250px;
+            background-color: #3b82f6;
+            bottom: -80px;
+            left: -60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide-container">
+        <div class="decoration-circle circle-1"></div>
+        <div class="decoration-circle circle-2"></div>
+        <div class="header-section">
+            <h1 class="slide-title">
+                <p>Traction, Competition &amp; Team</p>
+            </h1>
+            <div class="title-underline"></div>
+        </div>
+        <div class="content-section">
+            <div class="columns-wrapper">
+                <div class="column">
+                    <div class="column-header">
+                        <div class="column-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h2 class="column-title">
+                            <p>Traction</p>
+                        </h2>
+                    </div>
+                    <div class="column-content">
+                        <div class="point-item">
+                            <div class="point-bullet">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <p class="point-text">Users, revenue, pilots, partnerships</p>
+                        </div>
+                        <div class="point-item">
+                            <div class="point-bullet">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <p class="point-text">Even small wins matter</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-header">
+                        <div class="column-icon">
+                            <i class="fas fa-chess"></i>
+                        </div>
+                        <h2 class="column-title">
+                            <p>Competition</p>
+                        </h2>
+                    </div>
+                    <div class="column-content">
+                        <div class="point-item">
+                            <div class="point-bullet">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <p class="point-text">Direct &amp; indirect competitors</p>
+                        </div>
+                        <div class="point-item">
+                            <div class="point-bullet">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <p class="point-text">Your key differentiator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-header">
+                        <div class="column-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h2 class="column-title">
+                            <p>Team</p>
+                        </h2>
+                    </div>
+                    <div class="column-content">
+                        <div class="point-item">
+                            <div class="point-bullet">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <p class="point-text">Founders &amp; core team</p>
+                        </div>
+                        <div class="point-item">
+                            <div class="point-bullet">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                            <p class="point-text">Why you are the right people to build this</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="navigation.js"></script>
+</body>
+
+</html>
