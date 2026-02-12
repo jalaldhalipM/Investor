@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>What is Investor Readiness?</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #0f172a;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-section {
+            padding: 50px 80px 30px 80px;
+        }
+
+        .slide-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 52px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0 0 10px 0;
+            line-height: 1.2;
+        }
+
+        .title-underline {
+            width: 80px;
+            height: 5px;
+            background-color: #3b82f6;
+            margin-bottom: 0;
+        }
+
+        .content-section {
+            flex: 1;
+            padding: 0 80px 40px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .definition-box {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid #3b82f6;
+            padding: 25px 35px;
+            margin-bottom: 35px;
+        }
+
+        .definition-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            color: #e2e8f0;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .section-label {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3b82f6;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .points-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-bottom: 35px;
+        }
+
+        .point-item {
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.03);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .point-icon {
+            font-size: 28px;
+            color: #3b82f6;
+            margin-right: 15px;
+            min-width: 40px;
+        }
+
+        .point-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #cbd5e1;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .insight-box {
+            background-color: rgba(59, 130, 246, 0.15);
+            border: 2px solid #3b82f6;
+            border-radius: 15px;
+            padding: 25px 40px;
+            text-align: center;
+        }
+
+        .insight-text {
+            font-family: 'Poppins', sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: #ffffff;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            color: #3b82f6;
+            font-weight: 700;
+        }
+
+        .decoration-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.03;
+        }
+
+        .circle-1 {
+            width: 350px;
+            height: 350px;
+            background-color: #3b82f6;
+            top: -100px;
+            right: -80px;
+        }
+
+        .circle-2 {
+            width: 250px;
+            height: 250px;
+            background-color: #3b82f6;
+            bottom: -80px;
+            left: -60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide-container">
+        <div class="decoration-circle circle-1"></div>
+        <div class="decoration-circle circle-2"></div>
+        <div class="header-section">
+            <h1 class="slide-title">
+                <p>What is Investor Readiness?</p>
+            </h1>
+            <div class="title-underline"></div>
+        </div>
+        <div class="content-section">
+            <div>
+                <div class="definition-box">
+                    <p class="definition-text">Ability of a startup to confidently approach investors</p>
+                </div>
+                <p class="section-label">Having:</p>
+                <div class="points-list">
+                    <div class="point-item">
+                        <div class="point-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <p class="point-text">Clear business model</p>
+                    </div>
+                    <div class="point-item">
+                        <div class="point-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <p class="point-text">Validated problem &amp; solution</p>
+                    </div>
+                    <div class="point-item">
+                        <div class="point-icon">
+                            <i class="fas fa-presentation"></i>
+                        </div>
+                        <p class="point-text">Strong pitch deck</p>
+                    </div>
+                </div>
+            </div>
+            <div class="insight-box">
+                <p class="insight-text">Investor readiness <span class="highlight">≠</span> Just a good idea<br />It's
+                    about <span class="highlight">clarity, traction, and storytelling</span></p>
+            </div>
+        </div>
+    </div>
+<script src="navigation.js"></script>
+</body>
+
+</html>
